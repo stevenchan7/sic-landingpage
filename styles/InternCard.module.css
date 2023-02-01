@@ -1,0 +1,21 @@
+.card__container {
+  width: 350px;
+  height: 407px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px -2px;
+}
+
+.card__image {
+  width: 186px;
+  margin-inline: auto;
+  margin-top: 40px;
+}
+
+.card__text {
+  text-align: center;
+}
+
+.card__title {
+  font-weight: 700;
+  color: #2D3748;
+}

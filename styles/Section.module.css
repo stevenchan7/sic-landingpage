@@ -1,0 +1,89 @@
+/* Immerse Project Section */
+.container {
+  margin-bottom: 233px;
+}
+
+.section__immerse {
+  margin-bottom: 107px;
+  padding: 0;
+}
+
+.section__header {
+  max-width: 51.875vw;
+  text-align: center;
+  margin-bottom: 99px;
+}
+
+.section__sic {
+  color: #4299E1;
+}
+
+.section__you {
+  color: #4299E1;
+  font-weight: 700;
+}
+
+.h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.h2 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-weight: 500;
+}
+
+.logo__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+  
+@media (max-width: 576px) {
+  .section__immerse__logo {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 914px;
+  }
+  .section__text {
+    padding-right: 116px;
+  }
+}
+
+/* Group Discussion Section */
+.section__discussion {
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .section__discussion {
+    width: 902px;
+  }
+  .section__text__discussion {
+    padding-left: 81px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__text {
+    margin: auto;
+    text-align: center;
+  }
+  .section__text__discussion {
+    margin: auto;
+    text-align: center;
+  }
+}
